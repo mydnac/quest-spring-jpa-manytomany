@@ -37,4 +37,12 @@ public class Course {
     public void setName(String name) {
         this.name = name;
     }
+
+    public List<Wizard> getWizards() {
+        return wizards;
+    }
+
+    public void setWizards(List<Wizard> wizards) {
+        this.wizards = wizards;
+    }
 }
